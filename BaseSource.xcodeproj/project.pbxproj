@@ -17,6 +17,20 @@
 		9B04DE71238670770091678C /* BaseSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B04DE70238670770091678C /* BaseSourceUITests.swift */; };
 		9BF94A2323867BD600484AB4 /* DependencyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A2223867BD600484AB4 /* DependencyAssembly.swift */; };
 		9BF94A2523867BFC00484AB4 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A2423867BFC00484AB4 /* ViewModelType.swift */; };
+		9BF94A272386849400484AB4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A262386849400484AB4 /* APIClient.swift */; };
+		9BF94A292386853700484AB4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A282386853700484AB4 /* Constant.swift */; };
+		9BF94A2B2386A1BC00484AB4 /* EndPointRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A2A2386A1BC00484AB4 /* EndPointRepresentable.swift */; };
+		9BF94A2E2386A23400484AB4 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A2D2386A23400484AB4 /* String+Helper.swift */; };
+		9BF94A312386A86C00484AB4 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A302386A86C00484AB4 /* EndPoint.swift */; };
+		9BF94A332386A9DC00484AB4 /* EndPointPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A322386A9DC00484AB4 /* EndPointPath.swift */; };
+		9BF94A352386AAD800484AB4 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A342386AAD800484AB4 /* UserRepository.swift */; };
+		9BF94A392386ACD600484AB4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A382386ACD600484AB4 /* User.swift */; };
+		9BF94A3B2386AD0200484AB4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A3A2386AD0200484AB4 /* Address.swift */; };
+		9BF94A3D2386AD1600484AB4 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A3C2386AD1500484AB4 /* Company.swift */; };
+		9BF94A3F2386AD2700484AB4 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A3E2386AD2700484AB4 /* Geo.swift */; };
+		9BF94A442386B0A900484AB4 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9BF94A432386B0A900484AB4 /* .swiftlint.yml */; };
+		9BF94A462386B2A800484AB4 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A452386B2A800484AB4 /* UserListViewModel.swift */; };
+		9BF94A4823878A7600484AB4 /* Reactive+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF94A4723878A7600484AB4 /* Reactive+Helper.swift */; };
 		CD1D5E134EC880DFF7CDAB24 /* Pods_BaseSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2707DEA9DD1C13E8E1E00FE8 /* Pods_BaseSource.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +71,20 @@
 		9B04DE72238670770091678C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF94A2223867BD600484AB4 /* DependencyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyAssembly.swift; sourceTree = "<group>"; };
 		9BF94A2423867BFC00484AB4 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		9BF94A262386849400484AB4 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9BF94A282386853700484AB4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9BF94A2A2386A1BC00484AB4 /* EndPointRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointRepresentable.swift; sourceTree = "<group>"; };
+		9BF94A2D2386A23400484AB4 /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
+		9BF94A302386A86C00484AB4 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		9BF94A322386A9DC00484AB4 /* EndPointPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointPath.swift; sourceTree = "<group>"; };
+		9BF94A342386AAD800484AB4 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		9BF94A382386ACD600484AB4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9BF94A3A2386AD0200484AB4 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9BF94A3C2386AD1500484AB4 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		9BF94A3E2386AD2700484AB4 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		9BF94A432386B0A900484AB4 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		9BF94A452386B2A800484AB4 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		9BF94A4723878A7600484AB4 /* Reactive+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reactive+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +124,7 @@
 		9B04DE42238670750091678C = {
 			isa = PBXGroup;
 			children = (
+				9BF94A432386B0A900484AB4 /* .swiftlint.yml */,
 				9B04DE4D238670750091678C /* BaseSource */,
 				9B04DE64238670770091678C /* BaseSourceTests */,
 				9B04DE6F238670770091678C /* BaseSourceUITests */,
@@ -118,6 +147,8 @@
 		9B04DE4D238670750091678C /* BaseSource */ = {
 			isa = PBXGroup;
 			children = (
+				9BF94A372386AC2700484AB4 /* ViewModel */,
+				9BF94A362386AC1E00484AB4 /* Model */,
 				9B04DE8223867AE50091678C /* Repository */,
 				9B04DE8123867AAC0091678C /* Utility */,
 				9B04DE8023867A530091678C /* Common */,
@@ -169,8 +200,10 @@
 		9B04DE8023867A530091678C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				9BF94A2C2386A22700484AB4 /* Extension */,
 				9BF94A2223867BD600484AB4 /* DependencyAssembly.swift */,
 				9BF94A2423867BFC00484AB4 /* ViewModelType.swift */,
+				9BF94A282386853700484AB4 /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -178,6 +211,7 @@
 		9B04DE8123867AAC0091678C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				9BF94A2F2386A7DD00484AB4 /* Endpoint */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -186,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				9B04DE8323867B090091678C /* Network */,
+				9BF94A342386AAD800484AB4 /* UserRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -193,8 +228,47 @@
 		9B04DE8323867B090091678C /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				9BF94A262386849400484AB4 /* APIClient.swift */,
+				9BF94A2A2386A1BC00484AB4 /* EndPointRepresentable.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		9BF94A2C2386A22700484AB4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9BF94A2D2386A23400484AB4 /* String+Helper.swift */,
+				9BF94A4723878A7600484AB4 /* Reactive+Helper.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9BF94A2F2386A7DD00484AB4 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				9BF94A302386A86C00484AB4 /* EndPoint.swift */,
+				9BF94A322386A9DC00484AB4 /* EndPointPath.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		9BF94A362386AC1E00484AB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BF94A382386ACD600484AB4 /* User.swift */,
+				9BF94A3A2386AD0200484AB4 /* Address.swift */,
+				9BF94A3C2386AD1500484AB4 /* Company.swift */,
+				9BF94A3E2386AD2700484AB4 /* Geo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BF94A372386AC2700484AB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BF94A452386B2A800484AB4 /* UserListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		DFB5F5EF32AA328CCD71161D /* Pods */ = {
@@ -218,6 +292,7 @@
 				9B04DE48238670750091678C /* Frameworks */,
 				9B04DE49238670750091678C /* Resources */,
 				97540C4A07A71AEA694C83C5 /* [CP] Embed Pods Frameworks */,
+				9BF94A422386AD7200484AB4 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -312,6 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF94A442386B0A900484AB4 /* .swiftlint.yml in Resources */,
 				9B04DE5B238670770091678C /* LaunchScreen.storyboard in Resources */,
 				9B04DE58238670770091678C /* Assets.xcassets in Resources */,
 				9B04DE56238670750091678C /* Main.storyboard in Resources */,
@@ -352,6 +428,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseSource/Pods-BaseSource-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9BF94A422386AD7200484AB4 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		E5386418D0D676EE655C4638 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,11 +475,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF94A392386ACD600484AB4 /* User.swift in Sources */,
+				9BF94A292386853700484AB4 /* Constant.swift in Sources */,
+				9BF94A4823878A7600484AB4 /* Reactive+Helper.swift in Sources */,
 				9B04DE53238670750091678C /* ViewController.swift in Sources */,
+				9BF94A352386AAD800484AB4 /* UserRepository.swift in Sources */,
+				9BF94A312386A86C00484AB4 /* EndPoint.swift in Sources */,
 				9B04DE4F238670750091678C /* AppDelegate.swift in Sources */,
+				9BF94A462386B2A800484AB4 /* UserListViewModel.swift in Sources */,
+				9BF94A3B2386AD0200484AB4 /* Address.swift in Sources */,
+				9BF94A2B2386A1BC00484AB4 /* EndPointRepresentable.swift in Sources */,
+				9BF94A3D2386AD1600484AB4 /* Company.swift in Sources */,
 				9BF94A2323867BD600484AB4 /* DependencyAssembly.swift in Sources */,
 				9BF94A2523867BFC00484AB4 /* ViewModelType.swift in Sources */,
 				9B04DE51238670750091678C /* SceneDelegate.swift in Sources */,
+				9BF94A2E2386A23400484AB4 /* String+Helper.swift in Sources */,
+				9BF94A272386849400484AB4 /* APIClient.swift in Sources */,
+				9BF94A332386A9DC00484AB4 /* EndPointPath.swift in Sources */,
+				9BF94A3F2386AD2700484AB4 /* Geo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@ def pod_file
   pod 'RxCocoa'
   pod 'Swinject', '~> 2.6.2'
   pod 'SwinjectStoryboard'
+  pod 'SwiftLint'
 end
 
 target 'BaseSource' do
