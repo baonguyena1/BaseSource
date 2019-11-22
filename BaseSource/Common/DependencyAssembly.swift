@@ -18,7 +18,7 @@ extension SwinjectStoryboard {
     }
     
     private class func registerStoryboard() {
-        defaultContainer.storyboardInitCompleted(ViewController.self) { (r, c) in
+        defaultContainer.storyboardInitCompleted(UserListViewController.self) { (r, c) in
             c.userListViewModel = r.resolve(UserListViewModelType.self)
         }
     }

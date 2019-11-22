@@ -28,4 +28,10 @@ struct User: Codable {
         company = try values.decodeIfPresent(Company.self, forKey: .company)
     }
     
+    var displayName: String {
+        if !name.isEmpty {
+            return name
+        }
+        return username
+    }
 }

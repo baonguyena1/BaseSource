@@ -8,6 +8,7 @@ def pod_file
   pod 'Swinject', '~> 2.6.2'
   pod 'SwinjectStoryboard'
   pod 'SwiftLint'
+  pod 'MBProgressHUD'
 end
 
 target 'BaseSource' do
