@@ -6,6 +6,7 @@ PODS:
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
+  - SwiftLint (0.37.0)
   - Swinject (2.6.2)
   - SwinjectStoryboard (2.2.0):
     - Swinject (~> 2.6)
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - Alamofire
   - RxCocoa
   - RxSwift
+  - SwiftLint
   - Swinject (~> 2.6.2)
   - SwinjectStoryboard
 
@@ -23,6 +25,7 @@ SPEC REPOS:
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SwiftLint
     - Swinject
     - SwinjectStoryboard
 
@@ -31,9 +34,10 @@ SPEC CHECKSUMS:
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
   Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
   SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
 
-PODFILE CHECKSUM: a2a8b523660040a69e22955e904f565860a24c0d
+PODFILE CHECKSUM: 8725a6439d615c41c3da62119765fcf99e484df0
 
 COCOAPODS: 1.8.3
