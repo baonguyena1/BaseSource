@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - MBProgressHUD (1.1.0)
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -13,6 +14,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - MBProgressHUD
   - RxCocoa
   - RxSwift
   - SwiftLint
@@ -22,6 +24,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - MBProgressHUD
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -31,6 +34,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
@@ -38,6 +42,6 @@ SPEC CHECKSUMS:
   Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
   SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
 
-PODFILE CHECKSUM: 8725a6439d615c41c3da62119765fcf99e484df0
+PODFILE CHECKSUM: fef0e3641062d992b14be362e53c1f34c9043bde
 
 COCOAPODS: 1.8.3
